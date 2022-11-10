@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+  
+  <!--  Meta  -->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title><i><b> HARARE INSTITUTE OF TECHNOLOGY></b></i></title>
+  
+  <!--  Styles  -->
+  <link rel="stylesheet" href="style.css">
+  <!-- Scripts -->
+  <script type="text/javascript" src="java.js"></script>
+  <img src="download.png"  width="200px"alt="hit image">
+
+</head>
+<body>
+  <div class="heart"></div>
+  <h1 id="title"><i><b>HARARE INSTITUTE <span> OF </span>TECHNOLOGY</b></i</h1>
+  <p id="description"> May you please give us feedback on the following.
+  </p>
+ <!-- Add a form for name and email with the attribute required. Email contain validation -->
+  <form action="">
+    <div class="form-group">
+   <label for="name-label">Name<label>
+     <br>
+   <input id="name-label" type="text" placeholder="Enter your name" required="">
+     <br>
+     <br>
+   <label for="email-label">Email</label>
+     <br>
+   <input id="email-label" type="email" placeholder="Enter your email" required="">
+ <!-- User Story #7: Inside the form, I can enter a number in a field with id="number".-->
+     <br>
+     <br>
+     <label for="number-label">Age (optional)</label>
+     <br>
+     <input id="number-label" type="number" placeholder="Age" min="0" max="125">
+ <!--User Story #12: Inside the form element, I can select an option from a dropdown that has a corresponding id="dropdown".-->
+     <br>
+     <br>
+     <label for="dropdown">What best describes your current role?</label>
+     <br>
+     <select id="dropdown">
+               <option value="1" selected="selected">High School Student</option>
+               <option value="2">High School graduate</option>
+               <option value="4">University student </option>
+               <option value="3">University graduate</option>
+               <option value="4">Employed</option>
+             </select>
+     <br>
+     <br>
+     <label for="email-label">Where are you currently located?<</label>
+     <input id="Location-label" type="text" placeholder="Ener your location" required=""> </label>
+
+     <br>
+     <br>
+ <!-- Add radio buttons to the form -->
+     <fieldset>
+      <legend>Did you find everything you were looking for at the Harare Institute of Technology?</legend>
+        <br>
+     <label for="Yes"> 
+  <input id="Yes" value="yes" type="radio" name="Answer">Yes
+</label>
+        <br>
+<label for="No"> 
+  <input id="No" value="no" type="radio" name="Answer">No
+</label>
+        <br>
+<label for="Mostly"> 
+  <input id="Mostly" value="mostly" type="radio" name="Answer">Mostly
+</label>
+        </fieldset>
+        <br>
+        <br>
+        <fieldset>
+            <legend>Would you like to pursue another course at the college if given the opportunity?</legend>
+              <br>
+           <label for="Yes"> 
+        <input id="Yes" value="yes" type="radio" name="Answer">Yes
+      </label>
+              <br>
+      <label for="No"> 
+        <input id="No" value="no" type="radio" name="Answer">No
+      </label>
+      <br>
+    </fieldset>
+        <div class="rowTab">
+          <div class="labels">
+          <label for="userRating"><strong>How did you know that we exist?:</strong></label>
+          </div>
+        <div class="rightTab">
+          <ul style="list-style:none;">
+           <li class="radio"> 
+            <label>Television<input name="radio-button" value="1" type="radio" class="userRatings"></label></li>
+           <li class="radio">
+            <label>Radio<input name="radio-button" value="2" type="radio" class="userRatings"></label></li>
+           <li class="radio">
+            <label>Friend<input name="radio-button" value="3" type="radio" class="userRatings"></label></li>
+            <li class="social media">
+                <label> Socials<input name="radio-button" value="4"  type="radio" class="userRatings" ></label></li>
+            </li>
+          </ul>
+          </div>
+         </div>
+ <!-- Added checkboxes to the form -->
+        <fieldset>
+        <legend> What did you like most about HIT? (Check all that applies)</legend>
+          <br>
+ <label for="store"><input id="store" value="retail layout" type="checkbox" name="improve">Environment</label>
+        <br>
+<label for="online"><input id="online" value="online layout" type="checkbox" name="improve">Location</label>
+        <br>
+<label for="choice"><input id="choice" value="choice" type="checkbox" name="improve">Students</label>
+        <br>
+<label for="quality"><input id="quality" value="quality" type="checkbox" name="improve">Atmosphere</label>
+        <br>
+<label for="waiting"><input id="waiting" value="less waiting time" type="checkbox" name="improve">Sports</label>
+        <br>
+<label for="service"><input id="service" value="better customer service" type="checkbox" name="improve">Programs</label>
+            <br>
+          </fieldset>
+ <!-- Inside the form element, I am presented with a button with id="submit" to submit all my inputs. -->
+   <br>
+   <br>
+ <!--User Story #15: Inside the form element, I am presented with a textarea at the end for additional comments.-->
+<label for="comments">Additional Comments
+  <br>
+  <textarea id="comments" class="input-textarea" name="comment" placeholder="Enter your comment here..." maxlength="4000"></textarea>
+  <br>
+  <br>
+   <button class="submit-button" type="submit">Submit</button>
+   <br>
+   <br>
+    <button class="reset-button" type="reset">Reset</button>
+  </label></label></label></div>
+  </form>
+
+</body></html>

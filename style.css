@@ -1,0 +1,138 @@
+**
+ * index.scss
+ * Add any style yyou want here
+ */
+.-ms-value{
+  width: device-width;
+}
+
+body {
+    background: #f5f5f5;
+    font-family: "Times New Roman";
+}
+
+#title {
+  background-image: url(hit.png);
+  background-size: 250px;
+  width: 1200px;
+  height: 130px;
+  font-weight: 400;
+  line-height: 1.2;
+  text-align: center;
+}
+
+#description {
+  font-size: 1.5rem;
+  text-align: center;
+  font-style: oblique;
+  text-decoration-color: goldenrod;
+}
+
+form {
+  display:right;
+  width: 30rem;
+  margin: 10rem 10rem;
+  background: linear-gradient(115deg, skyblue, rgb(49, 68, 85));
+  padding: 10rem 10rem;
+  border-radius: 30px;
+  opacity: 0.9;
+}
+
+label {
+  display:block;
+  font-size:1.125rem;
+}
+
+#name-label {
+  display: flex;
+  flex-flow: row wrap;
+  width: 10rem;
+  padding: 0.75rem;
+  background: white;
+  color: inherit;
+  border-radius: 2px;
+}
+
+#email-label {
+  display: flex;
+  flex-flow: row wrap;
+  width: 20rem;
+  padding: 0.75rem;
+  background: white;
+  color: inherit;
+  border-radius: 2px;
+}
+
+#number-label {
+  display: flex;
+  flex-flow: row wrap;
+  width: 20rem;
+  padding: 0.75rem;
+  background: white;
+  color: inherit;
+  border-radius: 2px;
+}
+
+#location {
+    display: flex;
+    flex-flow: row wrap;
+    width: 20rem;
+    padding: 0.75rem;
+    background: white;
+    color: inherit;
+    border-radius: 2px;
+  }
+
+#dropdown {
+  display: flex;
+  flex-flow: row wrap;
+  width: 10rem;
+  padding: 0.75rem;
+  background: white;
+  color: inherit;
+  border-radius: 2px;
+}
+
+.input-textarea {
+  display: flex;
+  flex-flow: row wrap;
+  text-decoration-color: beige;
+  min-height: 120px;
+  width: 35rem;
+  padding: 0.625rem;
+  resize: vertical;
+}
+
+.submit-button {
+  display: center;
+  width: 5rem;
+  padding: 0.75rem;
+  background: goldenrod;
+  color: inherit;
+  border-radius: 10px;
+  cursor: pointer;
+  position: center;
+}
+
+.reset-button {
+  display: center;
+}
+
+/*ADD HEART LOGO */
+
+
+
+@keyframes backdiv {
+  50% {
+    background: #ffe6f2;
+  }
+}
+
+@keyframes beat {
+  0% {
+    transform: scale(1) rotate(-45deg);
+  }
+  50% {
+    transform: scale(0.6) rotate(-45deg);
+  }
+}
